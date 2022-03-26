@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7869a024-0248-4244-aabe-98b699c068e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.ApartamentRental.API/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.ApartamentRental.API/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.ApartamentRental.API/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.API/obj/ApartamentRental.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.API/obj/ApartamentRental.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.API/obj/Debug/net6.0/ApartamentRental.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.API/obj/Debug/net6.0/ApartamentRental.API.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.API/obj/Debug/net6.0/ApartamentRental.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.API/obj/Debug/net6.0/ApartamentRental.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/ApartamentRental.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ApartamentRental.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ApartamentRental.Core.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ApartamentRental.Core.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ApartamentRental.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ApartamentRental.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/ApartamentRental.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/ApartamentRental.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/Debug/net6.0/ApartamentRental.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/Debug/net6.0/ApartamentRental.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/Debug/net6.0/ApartamentRental.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/Debug/net6.0/ApartamentRental.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/ApartamentRental.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/ApartamentRental.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/Debug/net6.0/ApartamentRental.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/Debug/net6.0/ApartamentRental.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/Debug/net6.0/ApartamentRental.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/Debug/net6.0/ApartamentRental.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../ApartamentRental.Tests/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="26vv1YKL1REuHAruBJYkzs8ZKPE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7869a024-0248-4244-aabe-98b699c068e9" name="Changes" comment="" />
+      <created>1648316663438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648316663438</updated>
+      <workItem from="1648316663438" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

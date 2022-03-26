@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "spgU21LJA1dO9IQVM15KCu+OgGo0EQPx/DUtOIcYb0ytJQ4cXfllaKArw4ems++plqJV8u0vpbFkeKrwc7VtDQ==",
+  "dgSpecHash": "BgQfTA7fhFxC+srwXRdiBIZEbKDAhn4qcgRaCm511HfI0y+f1j4hr1iTv5EyYfvKtNQHlPXOG0yukKCFTqV6BQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s21488\\RiderProjects\\lab01\\ApartamentRental.API\\ApartamentRental.API\\ApartamentRental.API.csproj",
+  "projectFilePath": "Z:\\DOT\\Cokolwiek\\ApartamentRental.API\\ApartamentRental.API\\ApartamentRental.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s21488\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\s21488\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
