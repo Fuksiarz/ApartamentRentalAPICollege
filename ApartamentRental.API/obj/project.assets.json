@@ -1328,7 +1328,7 @@
   },
   "packageFolders": {
     "C:\\Users\\s21488\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1340,7 +1340,7 @@
       "outputPath": "C:\\Users\\s21488\\RiderProjects\\lab01\\ApartamentRental.API\\ApartamentRental.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\s21488\\AppData\\Roaming\\NuGet\\NuGet.Config",
