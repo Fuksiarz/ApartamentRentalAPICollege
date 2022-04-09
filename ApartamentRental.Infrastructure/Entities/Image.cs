@@ -1,4 +1,4 @@
-namespace ApartamentRental.Core.Entities;
+namespace ApartamentRental.Infrastructure.Entities;
 
 public class Image : BaseEntity
 {
