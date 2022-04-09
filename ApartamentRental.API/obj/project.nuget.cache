@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7A/27odt1+fTaTSkxbDEJWLDGFnKTi/u9b+JLMp0J3Qo3B/nxAV9CKZlfugGKCBkYEI9FGjAMdPg7yyONCIpSw==",
+  "dgSpecHash": "g3eSnZ7BST/7an/vx0MJy1cEQegTFGUv2CM2QhwqhBU0gItCXz6d6jkfr1SWUdTjZD49cjEudHAUm3LbNkfoTQ==",
   "success": true,
-  "projectFilePath": "Z:\\DOT\\Cokolwiek\\ApartamentRental.API\\ApartamentRental.API\\ApartamentRental.API.csproj",
+  "projectFilePath": "C:\\Users\\s21488\\RiderProjects\\lab01\\ApartamentRental.API\\ApartamentRental.API\\ApartamentRental.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s21488\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\s21488\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.3\\microsoft.data.sqlite.core.6.0.3.nupkg.sha512",

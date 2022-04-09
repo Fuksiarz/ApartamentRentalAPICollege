@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\DOT\\Cokolwiek\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj": {}
+    "C:\\Users\\s21488\\RiderProjects\\lab01\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj": {}
   },
   "projects": {
-    "Z:\\DOT\\Cokolwiek\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj": {
+    "C:\\Users\\s21488\\RiderProjects\\lab01\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\DOT\\Cokolwiek\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj",
+        "projectUniqueName": "C:\\Users\\s21488\\RiderProjects\\lab01\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj",
         "projectName": "ApartamentRental.Core",
-        "projectPath": "Z:\\DOT\\Cokolwiek\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj",
+        "projectPath": "C:\\Users\\s21488\\RiderProjects\\lab01\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj",
         "packagesPath": "C:\\Users\\s21488\\.nuget\\packages\\",
-        "outputPath": "Z:\\DOT\\Cokolwiek\\ApartamentRental.API\\ApartamentRental.Core\\obj\\",
+        "outputPath": "C:\\Users\\s21488\\RiderProjects\\lab01\\ApartamentRental.API\\ApartamentRental.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"

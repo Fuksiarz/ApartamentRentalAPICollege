@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wGLnnBCXlzXPaQ+2Ktjlfed3qhKPhRWSGCGNRrRDDmHKVDyU3y6KQi8igH52gWMB7KCx/+KxwhyFm0sOgMJhLQ==",
+  "dgSpecHash": "O+pxJbk/1Z9vDO2IQUK9XdsnytjasQorOL7x0pDR6BzFefOoqBVX4NtQOTyK71qibx5eg7Gq949T2koU/py63g==",
   "success": true,
-  "projectFilePath": "Z:\\DOT\\Cokolwiek\\ApartamentRental.API\\ApartamentRental.Infrastructure\\ApartamentRental.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\s21488\\RiderProjects\\lab01\\ApartamentRental.API\\ApartamentRental.Infrastructure\\ApartamentRental.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s21488\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.3\\microsoft.data.sqlite.core.6.0.3.nupkg.sha512",
     "C:\\Users\\s21488\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
