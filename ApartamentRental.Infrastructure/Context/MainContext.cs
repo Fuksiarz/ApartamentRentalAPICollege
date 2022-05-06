@@ -1,4 +1,4 @@
-using ApartamentRental.Core.Entities;
+using ApartamentRental.Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApartamentRental.Infrastructure.Context;
@@ -32,6 +32,10 @@ public class MainContext : DbContext
         modelBuilder.Entity<Apartment>()
             .HasMany(x => x.Images)
             .WithOne(x => x.Apartment)
+            .OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<Landlord>()
+            .HasMany(x => x.Apartaments)
+            .WithOne(x => x.Landlord)
             .OnDelete(DeleteBehavior.Cascade);
         
     }

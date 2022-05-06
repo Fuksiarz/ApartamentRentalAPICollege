@@ -10,6 +10,8 @@ public class Apartment: BaseEntity
  
     public int LandlordId{ get; set; } 
     
+    public Landlord Landlord{ get; set; } 
+    
     public int TenantId{ get; set; } 
     public Tenant Tenant{ get; set; } 
     
