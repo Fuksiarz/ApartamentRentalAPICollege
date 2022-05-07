@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "E:\\rider\\dotNet\\ApartamentRental.Core\\ApartamentRental.Core.csproj": {}
+    "C:\\Users\\s21488\\RiderProjects\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj": {}
   },
   "projects": {
-    "E:\\rider\\dotNet\\ApartamentRental.Core\\ApartamentRental.Core.csproj": {
+    "C:\\Users\\s21488\\RiderProjects\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\rider\\dotNet\\ApartamentRental.Core\\ApartamentRental.Core.csproj",
+        "projectUniqueName": "C:\\Users\\s21488\\RiderProjects\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj",
         "projectName": "ApartamentRental.Core",
-        "projectPath": "E:\\rider\\dotNet\\ApartamentRental.Core\\ApartamentRental.Core.csproj",
-        "packagesPath": "C:\\Users\\Adi\\.nuget\\packages\\",
-        "outputPath": "E:\\rider\\dotNet\\ApartamentRental.Core\\obj\\",
+        "projectPath": "C:\\Users\\s21488\\RiderProjects\\ApartamentRental.API\\ApartamentRental.Core\\ApartamentRental.Core.csproj",
+        "packagesPath": "C:\\Users\\s21488\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s21488\\RiderProjects\\ApartamentRental.API\\ApartamentRental.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Adi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\s21488\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

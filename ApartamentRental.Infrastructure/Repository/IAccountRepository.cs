@@ -2,17 +2,7 @@ using ApartamentRental.Infrastructure.Entities;
 
 namespace ApartamentRental.Infrastructure.Repository;
 
-public interface IApartmentRepository :IRepository<Apartment>
+public interface IAccountRepository :IRepository<Account>
 {
 
 }
-
-
-
-
-
-
-
-
-
-

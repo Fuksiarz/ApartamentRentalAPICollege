@@ -61,10 +61,7 @@ public class ApartmentRepository : IApartmentRepository
         apartmentToUpdate.SquareMeters = entity.SquareMeters;
         apartmentToUpdate.NumberOfRooms = entity.NumberOfRooms;
         apartmentToUpdate.DateOfUpdate = DateTime.UtcNow;
-        apartmentToUpdate.LandlordId = entity.LandlordId;
-        apartmentToUpdate.Tenant = entity.Tenant;
-        apartmentToUpdate.Address = entity.Address;
-        apartmentToUpdate.Images = entity.Images;
+        
         
         
         throw new NotImplementedException();
