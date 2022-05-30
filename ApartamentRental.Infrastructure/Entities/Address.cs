@@ -2,11 +2,12 @@ namespace ApartamentRental.Infrastructure.Entities;
 
 public class Address : BaseEntity
 {
-    public string Ulica{ get; set; }
-    public string? NumerMieszkania{ get; set; } 
-    public string? NumerBudynku{ get; set; } 
-    public string Miasto{ get; set; } 
-    public string KodPocztowy{ get; set; } 
-    public string Kraj{ get; set; } 
+    public int Id { get; set; }
+    public string Street{ get; set; }
+    public string? AparmentNumber{ get; set; } 
+    public string? BuildingNumber{ get; set; } 
+    public string City{ get; set; } 
+    public string ZipCode{ get; set; } 
+    public string Country{ get; set; } 
     
 }

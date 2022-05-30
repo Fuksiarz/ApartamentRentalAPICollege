@@ -1,0 +1,15 @@
+D:\dotNet\ApartamentRental.Core\obj\Debug\net6.0\ApartamentRental.Core.csproj.AssemblyReference.cache
+D:\dotNet\ApartamentRental.Core\obj\Debug\net6.0\ApartamentRental.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNet\ApartamentRental.Core\obj\Debug\net6.0\ApartamentRental.Core.AssemblyInfoInputs.cache
+D:\dotNet\ApartamentRental.Core\obj\Debug\net6.0\ApartamentRental.Core.AssemblyInfo.cs
+D:\dotNet\ApartamentRental.Core\obj\Debug\net6.0\ApartamentRental.Core.csproj.CoreCompileInputs.cache
+D:\dotNet\ApartamentRental.Core\bin\Debug\net6.0\ApartamentRental.Core.deps.json
+D:\dotNet\ApartamentRental.Core\bin\Debug\net6.0\ApartamentRental.Core.dll
+D:\dotNet\ApartamentRental.Core\bin\Debug\net6.0\ApartamentRental.Core.pdb
+D:\dotNet\ApartamentRental.Core\bin\Debug\net6.0\ApartamentRental.Infrastructure.dll
+D:\dotNet\ApartamentRental.Core\bin\Debug\net6.0\ApartamentRental.Infrastructure.pdb
+D:\dotNet\ApartamentRental.Core\obj\Debug\net6.0\ApartamentRental.Core.csproj.CopyComplete
+D:\dotNet\ApartamentRental.Core\obj\Debug\net6.0\ApartamentRental.Core.dll
+D:\dotNet\ApartamentRental.Core\obj\Debug\net6.0\refint\ApartamentRental.Core.dll
+D:\dotNet\ApartamentRental.Core\obj\Debug\net6.0\ApartamentRental.Core.pdb
+D:\dotNet\ApartamentRental.Core\obj\Debug\net6.0\ref\ApartamentRental.Core.dll

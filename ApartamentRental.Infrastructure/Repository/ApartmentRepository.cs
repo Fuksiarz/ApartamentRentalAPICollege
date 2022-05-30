@@ -29,17 +29,17 @@ public class ApartmentRepository : IApartmentRepository
     public async Task<Apartment> GetById(int id)
     {
         var apartment = await _mainContext.Apartment.SingleOrDefaultAsync(x => x.Id == id);
-        if (apartment != null)
+        if (apartment == null) throw new EntityNotFoundException();
         {
             await _mainContext.Entry(apartment).Reference(x => x.Address).LoadAsync();
             return apartment;
         }
-        
-        throw new NotImplementedException();
+
     }
 
     public async Task Add(Apartment entity)
     {
+
         entity.DateOfCreation=DateTime.UtcNow;
         await _mainContext.AddAsync(entity);
         await _mainContext.SaveChangesAsync();
@@ -69,14 +69,10 @@ public class ApartmentRepository : IApartmentRepository
 
     public async Task DeleteById(int id)
     {
-        var apartmentToDelete = await _mainContext.Apartment.SingleOrDefaultAsync(x => x.AddressId == id);
-        if (apartmentToDelete != null)
-        {
-
-            _mainContext.Apartment.Remove(apartmentToDelete);
-            await _mainContext.SaveChangesAsync();
-
-        }
-        throw new EntityNotFoundException();
+        var apartmentToDelete = await _mainContext.Apartment.SingleOrDefaultAsync(x => x.Id == id);
+        if (apartmentToDelete == null) throw new EntityNotFoundException();
+        _mainContext.Apartment.Remove(apartmentToDelete);
+        await _mainContext.SaveChangesAsync();
+        
     }
 }

@@ -1,0 +1,12 @@
+D:\dotNet\ApartamentRental.Infrastructure\bin\Debug\net6.0\ApartamentRental.Infrastructure.deps.json
+D:\dotNet\ApartamentRental.Infrastructure\bin\Debug\net6.0\ApartamentRental.Infrastructure.dll
+D:\dotNet\ApartamentRental.Infrastructure\bin\Debug\net6.0\ApartamentRental.Infrastructure.pdb
+D:\dotNet\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.csproj.AssemblyReference.cache
+D:\dotNet\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNet\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.AssemblyInfoInputs.cache
+D:\dotNet\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.AssemblyInfo.cs
+D:\dotNet\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.csproj.CoreCompileInputs.cache
+D:\dotNet\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.dll
+D:\dotNet\ApartamentRental.Infrastructure\obj\Debug\net6.0\refint\ApartamentRental.Infrastructure.dll
+D:\dotNet\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.pdb
+D:\dotNet\ApartamentRental.Infrastructure\obj\Debug\net6.0\ref\ApartamentRental.Infrastructure.dll

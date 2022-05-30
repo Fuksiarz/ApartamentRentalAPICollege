@@ -531,6 +531,33 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "ApartamentRental.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ApartamentRental.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApartamentRental.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApartamentRental.Core.dll": {}
+        }
+      },
+      "ApartamentRental.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/ApartamentRental.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApartamentRental.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -1316,10 +1343,22 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ApartamentRental.Core/1.0.0": {
+      "type": "project",
+      "path": "../ApartamentRental.Core/ApartamentRental.Core.csproj",
+      "msbuildProject": "../ApartamentRental.Core/ApartamentRental.Core.csproj"
+    },
+    "ApartamentRental.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ApartamentRental.Infrastructure/ApartamentRental.Infrastructure.csproj",
+      "msbuildProject": "../ApartamentRental.Infrastructure/ApartamentRental.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ApartamentRental.Core >= 1.0.0",
+      "ApartamentRental.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.3",
@@ -1327,37 +1366,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\s21488\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
+    "C:\\Users\\Adi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s21488\\RiderProjects\\ApartamentRental.API\\ApartamentRental.API\\ApartamentRental.API.csproj",
+      "projectUniqueName": "D:\\dotNet\\ApartamentRental.API\\ApartamentRental.API.csproj",
       "projectName": "ApartamentRental.API",
-      "projectPath": "C:\\Users\\s21488\\RiderProjects\\ApartamentRental.API\\ApartamentRental.API\\ApartamentRental.API.csproj",
-      "packagesPath": "C:\\Users\\s21488\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s21488\\RiderProjects\\ApartamentRental.API\\ApartamentRental.API\\obj\\",
+      "projectPath": "D:\\dotNet\\ApartamentRental.API\\ApartamentRental.API.csproj",
+      "packagesPath": "C:\\Users\\Adi\\.nuget\\packages\\",
+      "outputPath": "D:\\dotNet\\ApartamentRental.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
-      ],
       "configFilePaths": [
-        "C:\\Users\\s21488\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Adi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\dotNet\\ApartamentRental.Core\\ApartamentRental.Core.csproj": {
+              "projectPath": "D:\\dotNet\\ApartamentRental.Core\\ApartamentRental.Core.csproj"
+            },
+            "D:\\dotNet\\ApartamentRental.Infrastructure\\ApartamentRental.Infrastructure.csproj": {
+              "projectPath": "D:\\dotNet\\ApartamentRental.Infrastructure\\ApartamentRental.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1407,7 +1446,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
