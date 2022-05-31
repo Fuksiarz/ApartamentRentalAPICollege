@@ -75,4 +75,6 @@ public class ApartmentRepository : IApartmentRepository
         await _mainContext.SaveChangesAsync();
         
     }
+
+    
 }
