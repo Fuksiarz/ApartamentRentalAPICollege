@@ -35,6 +35,7 @@ public class ApartmentService : IApartmentService
         throw new NotImplementedException();
     }
 
+
     public async Task AddNewApartmentToExistingLandLordAsync(ApartmentCreationRequestDto dto)
     {
         var landlord = await _landlordRepository.GetById(dto.LandLordId);

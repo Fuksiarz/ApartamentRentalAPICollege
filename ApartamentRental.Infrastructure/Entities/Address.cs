@@ -2,7 +2,7 @@ namespace ApartamentRental.Infrastructure.Entities;
 
 public class Address : BaseEntity
 {
-    public int Id { get; set; }
+    public new int Id { get; set; }
     public string Street{ get; set; }
     public string? AparmentNumber{ get; set; } 
     public string? BuildingNumber{ get; set; } 

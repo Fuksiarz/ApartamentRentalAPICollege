@@ -66,7 +66,7 @@ public class AccountRepository :IAccountRepository
         accountToUpdate.PhoneNumber = entity.PhoneNumber;
         
         
-        throw new NotImplementedException();
+        
     }
 
     public async Task DeleteById(int id)

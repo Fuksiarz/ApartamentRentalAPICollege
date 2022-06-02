@@ -1,6 +1,7 @@
 using ApartamentRental.Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace ApartamentRental.Infrastructure.Context;
 
 public class MainContext : DbContext
@@ -12,13 +13,19 @@ public class MainContext : DbContext
     public DbSet<Landlord> Landlord { get; set; }
     public DbSet<Tenant> Tenant { get; set; }
     public DbSet<Address> Address { get; set; }
-    
-    
-    public MainContext(DbContextOptions options) : base(options)
+
+    public MainContext()
     {
         
-        
-        
+    }
+    public MainContext(DbContextOptions options, DbSet<Apartment> apartment, DbSet<Account> account, DbSet<Image> image, DbSet<Landlord> landlord, DbSet<Tenant> tenant, DbSet<Address> address) : base(options)
+    {
+        Apartment = apartment;
+        Account = account;
+        Image = image;
+        Landlord = landlord;
+        Tenant = tenant;
+        Address = address;
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -27,6 +34,7 @@ public class MainContext : DbContext
         
 
     }
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Apartment>()
