@@ -4,7 +4,7 @@ using ApartamentRental.Infrastructure.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApartamentRental.API.Controllers;
-
+[ApiController]
 [Route("api/[controller]")]
 public class ApartmentController : ControllerBase
 {
@@ -46,6 +46,6 @@ public class ApartmentController : ControllerBase
         return Ok(apartment);
     }
 
-
-
+    
+    
 }
