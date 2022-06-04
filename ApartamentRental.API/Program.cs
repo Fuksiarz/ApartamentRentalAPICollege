@@ -20,6 +20,7 @@ builder.Services.AddDbContext<MainContext>(options =>
 );
 
 builder.Services.AddScoped<IApartmentRepository, ApartmentRepository>();
+builder.Services.AddScoped<IAddressRepository, AddressRepository>();
 builder.Services.AddScoped<IApartmentService, ApartmentService>();
 builder.Services.AddScoped<IAddressService, AddressService>();
 builder.Services.AddScoped<ITenantRepository, TenantRepository>();

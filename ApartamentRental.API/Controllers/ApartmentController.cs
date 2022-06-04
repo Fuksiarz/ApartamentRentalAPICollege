@@ -9,15 +9,15 @@ namespace ApartamentRental.API.Controllers;
 public class ApartmentController : ControllerBase
 {
     private readonly IApartmentService _apartmentService;
+    private readonly ILandLordService _landLordService;
 
-    public ApartmentController(IApartmentService apartmentService)
+    public ApartmentController(IApartmentService apartmentService, ILandLordService landLordService)
     {
-
         _apartmentService = apartmentService;
-
+        _landLordService = landLordService;
     }
     [HttpPost("Create")]
-    public async Task<IActionResult> CreateNewApartment([FromBody] ApartmentBasicInformationResponseDto dto)
+    public async Task<IActionResult> CreateNewApartment([FromBody] ApartmentCreationRequestDto dto)
     {
         try
         {

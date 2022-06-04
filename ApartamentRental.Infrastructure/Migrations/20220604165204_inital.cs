@@ -1,12 +1,11 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-
 #nullable disable
 
 namespace ApartamentRental.Infrastructure.Migrations
 {
-    public partial class linitial : Migration
+    public partial class inital : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

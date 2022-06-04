@@ -4,5 +4,5 @@ namespace ApartamentRental.Core.Services;
 
 public interface ILandLordService
 {
-    Task CreateNewLandlordAccountAsync(LandLordCreationRequestDto dto);
+    Task<Task> CreateNewLandlordAccountAsync(LandLordCreationRequestDto dto);
 }

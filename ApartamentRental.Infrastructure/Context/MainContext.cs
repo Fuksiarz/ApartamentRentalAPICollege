@@ -30,7 +30,7 @@ public class MainContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("DataSource=DbContextOptions.ApartamentRental.db");
+        optionsBuilder.UseSqlite("DataSource=dbo.ApartamentRental.db");
         
 
     }

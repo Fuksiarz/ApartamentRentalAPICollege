@@ -14,5 +14,20 @@ public class ApartmentCreationRequestDto
     public string? BuildingNumber { get; set; }
     public string? Country { get; set; }
     public int LandLordId { get; set; }
-    
+
+    public ApartmentCreationRequestDto(decimal rentAmount, int numberOfRooms, int squareMeters, int floor, bool isElevator, string? city, string? street, string? zipCode, string? apartmentNumber, string? buildingNumber, string? country, int landLordId)
+    {
+        RentAmount = rentAmount;
+        NumberOfRooms = numberOfRooms;
+        SquareMeters = squareMeters;
+        Floor = floor;
+        IsElevator = isElevator;
+        City = city;
+        Street = street;
+        ZipCode = zipCode;
+        ApartmentNumber = apartmentNumber;
+        BuildingNumber = buildingNumber;
+        Country = country;
+        LandLordId = landLordId;
+    }
 }

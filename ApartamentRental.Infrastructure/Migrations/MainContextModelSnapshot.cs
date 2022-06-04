@@ -16,7 +16,7 @@ namespace ApartamentRental.Infrastructure.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.3");
-            
+
             modelBuilder.Entity("ApartamentRental.Infrastructure.Entities.Account", b =>
                 {
                     b.Property<int>("Id")
@@ -298,8 +298,7 @@ namespace ApartamentRental.Infrastructure.Migrations
 
             modelBuilder.Entity("ApartamentRental.Infrastructure.Entities.Tenant", b =>
                 {
-                    b.Navigation("Apartment")
-                        .IsRequired();
+                    b.Navigation("Apartment");
                 });
 #pragma warning restore 612, 618
         }

@@ -16,7 +16,7 @@ public class LandLordService : ILandLordService
         _accountRepository = accountRepository;
     }
 
-    public async Task CreateNewLandlordAccountAsync(LandLordCreationRequestDto dto)
+    public async Task<Task> CreateNewLandlordAccountAsync(LandLordCreationRequestDto dto)
     {
         var landLords = await _landLordRepository.GetAll();
         
@@ -36,7 +36,7 @@ public class LandLordService : ILandLordService
                 Address = dto.Address
                 
             });
-        
+        return newAcc;
 
     }
 }

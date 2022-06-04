@@ -9,4 +9,5 @@ public interface IApartmentService
 
     Task AddNewApartmentToExistingLandLordAsync(ApartmentBasicInformationResponseDto dto);
     Task<ApartmentBasicInformationResponseDto?> GetTheCheapestApartmentAsync();
+    Task AddNewApartmentToExistingLandLordAsync(ApartmentCreationRequestDto dto);
 }
