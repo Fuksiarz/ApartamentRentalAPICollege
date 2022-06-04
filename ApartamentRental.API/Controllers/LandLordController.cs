@@ -8,9 +8,9 @@ namespace ApartamentRental.API.Controllers;
 [Route("api/[controller]")]
 public class LandLordController : ControllerBase
 {
-    private readonly ILandLordService? _landLordService;
+    private readonly ILandLordService _landLordService;
 
-    public LandLordController(ILandLordService? landLcordService)
+    public LandLordController(ILandLordService landLcordService)
     {
         _landLordService = landLcordService;
     }

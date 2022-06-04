@@ -7,20 +7,16 @@ namespace ApartamentRental.Core.Services;
 
 public class LandLordService : ILandLordService
 {
-    
     private readonly ILandlordRepository _landLordRepository;
+    private readonly IAccountRepository _accountRepository;
     
-    private readonly AccountRepository _accountRepository;
-    
-    public LandLordService( ILandlordRepository landLordRepository, AccountRepository accountRepository)
+    public LandLordService( ILandlordRepository landLordRepository, IAccountRepository accountRepository)
     {
-        
         _landLordRepository = landLordRepository;
-        
         _accountRepository = accountRepository;
     }
 
-    public async Task<bool> CreateNewLandlordAccountAsync(LandLordCreationRequestDto dto)
+    public async Task CreateNewLandlordAccountAsync(LandLordCreationRequestDto dto)
     {
         var landLords = await _landLordRepository.GetAll();
         
@@ -28,7 +24,7 @@ public class LandLordService : ILandLordService
         {
             if (dto.Address == landlord.Account.Address)
             {
-                return false;
+                throw new AddressAlreadyTakenException();
             }
         }
         var newAcc=  _accountRepository.Add(new Account()
@@ -40,7 +36,7 @@ public class LandLordService : ILandLordService
                 Address = dto.Address
                 
             });
-        return true;
+        
 
     }
 }
