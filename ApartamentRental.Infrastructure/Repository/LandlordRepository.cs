@@ -2,15 +2,18 @@ using ApartamentRental.Infrastructure.Context;
 using ApartamentRental.Infrastructure.Entities;
 using ApartamentRental.Infrastructure.Exceptions;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace ApartamentRental.Infrastructure.Repository;
 
 public class LandlordRepository : ILandlordRepository
 {
     private readonly MainContext _mainContext;
-    public LandlordRepository(MainContext mainContext)
+    private readonly ILogger<ILandlordRepository> _logger;
+    public LandlordRepository(MainContext mainContext, ILogger<ILandlordRepository> logger)
     {
         _mainContext = mainContext;
+        _logger = logger;
     }
     
     
@@ -29,7 +32,11 @@ public class LandlordRepository : ILandlordRepository
     public async Task<Landlord> GetById(int id)
     {
         var landlord = await _mainContext.Landlord.SingleOrDefaultAsync(x => x.Id == id);
-        if (landlord == null) throw new EntityNotFoundException();
+        if (landlord == null)
+        {
+            _logger.LogError("cannot find landlord with provided id: {LandLordId}", id);
+            throw new EntityNotFoundException();
+        }
         await _mainContext.Entry(landlord).Reference(x => x.Account).LoadAsync();
         return landlord;
     }
