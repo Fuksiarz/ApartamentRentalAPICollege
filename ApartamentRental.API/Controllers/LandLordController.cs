@@ -18,8 +18,8 @@ public class LandLordController : ControllerBase
 
     [HttpPost("Create")]
     public async Task<IActionResult> CreateNewLandlordAccount([FromBody] LandLordCreationRequestDto dto)
-    {
-        if (_landLordService != null) await _landLordService.CreateNewLandlordAccountAsync(dto);
+    { 
+        await _landLordService.CreateNewLandlordAccountAsync(dto);
         return NoContent();
     }
 }

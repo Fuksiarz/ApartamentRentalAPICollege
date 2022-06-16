@@ -11,19 +11,31 @@ using Xunit;
 
 namespace ApartamentRental.Tests;
 
-public class ApartmentServiceTests
+public class AddressServiceTests
 {
     
     
     [Fact]
-    public async Task GetTheCheapestApartmentAsync_ShouldReturnNull_WhenApartmentsCollectionIsNull()
+    public async Task GetAddressIdOrCreateAsync_ShouldGetAddressId()
     {
-        
-        var sut = new ApartmentService(Mock.Of<IApartmentRepository>(), Mock.Of < ILandlordRepository>(),
-            Mock.Of<IAddressService>());
+        var apartments = 
+             new Address()
+                {
+                    City = "Gdańsk",
+                    Country = "Polska",
+                    Street = "Grunwaldzka",
+                    AparmentNumber = "1",
+                    BuildingNumber = "1",
+                    ZipCode = "11-111"
+                };
+        var nowy =( id:1,country: "Polska", city: "Gdańsk", zipCode: "11-111",
+            street: "Grunwaldzka", buildingNumber: "1", apartmentNUmber: "1");
+        var apartmentRepositoryMock = new Mock<IAddressRepository>();
+        apartmentRepositoryMock.Setup(x => x.GetAll()).ReturnsAsync(country:"Polska",city:"Gdańsk",zipCode:"11-111",street:"Grunwaldzka",buildingNumber:"1",apartmentNUmber:"1");
+        var sut = new AddressService(Mock.Of<AddressRepository>());
 
-        var result = await sut.GetTheCheapestApartmentAsync();
-        result.Should().BeNull();
+        var result = await sut.GetAddressIdOrCreateAsync(country:"Polska",city:"Gdańsk",zipCode:"11-111",street:"Grunwaldzka",buildingNumber:"1",apartmentNUmber:"1");
+        result.Should().Be(1);
     }
     [Fact]
     public async Task GetTheCheapestApartmentAsync_ShouldReturnTheCheapestApartment()
@@ -82,4 +94,6 @@ public class ApartmentServiceTests
     }
     
     
+
+
 }

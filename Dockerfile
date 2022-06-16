@@ -12,7 +12,7 @@ RUN dotnet test
 
 FROM build AS update-database
 WORKDIR /src
-RUN dotnet tool Install --global dotnet-ef
+RUN dotnet tool install --global dotnet-ef
 ENV PATH $PATH:/root/.dotnet/tools
 RUN dotnet ef database update --project ApartamentRental.Infrastructure --startup-project ApartamentRental.API
 

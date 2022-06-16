@@ -1,15 +1,3 @@
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\bin\Debug\net6.0\ApartamentRental.Infrastructure.deps.json
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\bin\Debug\net6.0\ApartamentRental.Infrastructure.dll
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\bin\Debug\net6.0\ApartamentRental.Infrastructure.pdb
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.csproj.AssemblyReference.cache
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.AssemblyInfo.cs
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.dll
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\obj\Debug\net6.0\refint\ApartamentRental.Infrastructure.dll
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\obj\Debug\net6.0\ApartamentRental.Infrastructure.pdb
-C:\Users\s21488\RiderProjects\lab01\ApartamentRental.API\ApartamentRental.Infrastructure\obj\Debug\net6.0\ref\ApartamentRental.Infrastructure.dll
 D:\rider\ApartamentRental.Infrastructure\bin\Debug\net6.0\ApartamentRental.Infrastructure.deps.json
 D:\rider\ApartamentRental.Infrastructure\bin\Debug\net6.0\ApartamentRental.Infrastructure.dll
 D:\rider\ApartamentRental.Infrastructure\bin\Debug\net6.0\ApartamentRental.Infrastructure.pdb

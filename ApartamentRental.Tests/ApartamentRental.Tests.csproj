@@ -28,4 +28,9 @@
       <ProjectReference Include="..\ApartamentRental.Infrastructure\ApartamentRental.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="AddressServiceTests.cs" />
+      <Compile Remove="LandLordTests.cs" />
+    </ItemGroup>
+
 </Project>

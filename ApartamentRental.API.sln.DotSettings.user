@@ -5,5 +5,8 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=42208cae_002D639a_002D4c4e_002Da5e0_002D0ac52584b986/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetTheCheapestApartmentAsync_ShouldReturnNull_WhenApartmentsCollectionIsNull" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::F51DE80B-60C7-4A4B-9470-382661238909::net6.0::ApartamentRental.Tests.ApartmentServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F51DE80B-60C7-4A4B-9470-382661238909::net6.0::ApartamentRental.Tests.AddressServiceTests.GetAddressIdOrCreateAsync_ShouldGetAddressId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F51DE80B-60C7-4A4B-9470-382661238909::net6.0::ApartamentRental.Tests.LandLordTests.GetTheCheapestApartmentAsync_ShouldReturnNull_WhenApartmentsCollectionIsNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F51DE80B-60C7-4A4B-9470-382661238909::net6.0::ApartamentRental.Tests.LandLordTests.GetTheCheapestApartmentAsync_ShouldReturnTheCheapestApartment&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

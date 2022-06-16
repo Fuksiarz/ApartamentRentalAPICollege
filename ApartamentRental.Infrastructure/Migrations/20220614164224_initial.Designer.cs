@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApartamentRental.Infrastructure.Migrations
 {
     [DbContext(typeof(MainContext))]
-    [Migration("20220604165204_inital")]
-    partial class inital
+    [Migration("20220614164224_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
